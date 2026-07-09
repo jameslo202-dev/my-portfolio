@@ -47,13 +47,13 @@ const highlights = [
     icon: Users,
     title: "Team Collaboration",
     description:
-      "Worked in Agile environments, mentored junior developers, and partnered with designers and product managers to ship quality software.",
+      "Worked in Agile environments and good, mentored junior developers, and partnered with designers and product managers to ship quality software.",
   },
 ];
 
 export function About() {
   return (
-    <section id="about" className="relative px-4 py-4 sm:px-6 sm:py-32">
+    <section id="about" className="relative px-4 py-16 sm:px-6 sm:py-32">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="About Me"
