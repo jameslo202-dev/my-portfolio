@@ -73,7 +73,7 @@ export function About() {
               whileHover={{ y: -4 }}
               className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm"
             >
-              <div className="text-3xl font-bold text-primary sm:text-4xl">
+              <div className="text-3xl  text-primary sm:text-4xl">
                 {stat.value}
               </div>
               <div className="mt-1 text-sm text-muted-foreground">{stat.label}</div>
