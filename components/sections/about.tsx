@@ -71,7 +71,7 @@ export function About() {
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               whileHover={{ y: -4 }}
-              className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm"
+              className="rounded-2xl border border-border bg-card text-center shadow-sm"
             >
               <div className="text-3xl font-bold text-primary sm:text-4xl">
                 {stat.value}
