@@ -71,9 +71,9 @@ export function About() {
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               whileHover={{ y: -4 }}
-              className="rounded-2xl border border-border bg-card text-center shadow-sm"
+              className="rounded-2xl  border-border bg-card text-center shadow-sm"
             >
-              <div className="text-3xl font-bold text-primary sm:text-4xl">
+              <div className="text-3xl  text-primary sm:text-4xl">
                 {stat.value}
               </div>
               <div className="mt-1 text-sm text-muted-foreground">{stat.label}</div>
@@ -82,7 +82,7 @@ export function About() {
         </div>
 
         {/* Highlights grid */}
-        <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-166 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {highlights.map((h, i) => {
             const Icon = h.icon;
             return (
