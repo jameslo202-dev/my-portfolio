@@ -82,7 +82,7 @@ export function About() {
         </div>
 
         {/* Highlights grid */}
-        <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-166 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {highlights.map((h, i) => {
             const Icon = h.icon;
             return (
